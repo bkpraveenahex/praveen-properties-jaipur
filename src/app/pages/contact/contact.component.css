@@ -1,0 +1,29 @@
+.contact-page { max-width: 600px; margin: 3rem auto; padding: 2rem; border: 1px solid #ddd; border-radius: 10px; }
+.form-group { margin-bottom: 1.5rem; }
+label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+input, textarea { width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; }
+textarea { height: 150px; }
+button { width: 100%; padding: 1rem; background-color: #007bff; color: white; border: none; border-radius: 4px; font-size: 1rem; cursor: pointer; }
+button:hover { background-color: #0056b3; }
+
+.alternative-contact {
+  margin-top: 2rem;
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+}
+
+.btn-whatsapp-full {
+  display: block;
+  padding: 1rem;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-whatsapp-full:hover {
+  background-color: #128c7e;
+}
